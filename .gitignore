@@ -1,0 +1,12 @@
+# Real sales data must never be committed (this repository is public).
+# Every CSV is ignored except the demo sample.
+*.csv
+!sales_forecasting_sample_data.csv
+*.xlsx
+data/
+reports/
+
+# Python / environment
+.venv/
+__pycache__/
+.pytest_cache/
